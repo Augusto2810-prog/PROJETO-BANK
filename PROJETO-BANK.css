@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+
+    list-style: none;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    background-color: rgb(78, 135, 168);
+
+    padding: 50px;
+}
+
+.menu-bank {
+    display: flex;
+
+    justify-content: end;
+    
+}
+
+.menu-bank > li > a { 
+    color: white; 
+
+    text-decoration: none; 
+
+    font-size: 14px; 
+
+ }
+ 
+ .menu-bank > li > a:hover { 
+     color: rgb(253, 253, 255); 
+
+     transition: 0.7s; 
+
+ }
+
+ .menu-bank > li { 
+
+     margin-left: 20px; 
+ }
+
+ #secti1 { 
+    padding: 222px; 
+
+    width: auto;
+
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); 
+
+}
+
+#secti1 h1 {
+
+    font-size: 40px;
+
+    color: rgba(0, 0, 0, 0.712);
+
+}
+
+#secti1 p { 
+
+    font-size: 25px;
+
+ }
+
+ #secti1 button {
+
+    padding: 20px;
+
+    border-radius: 30px; 
+
+    width: 20vw; 
+
+    cursor: pointer;
+    
+    border-color: rgb(19, 153, 108); 
+
+    margin: 15px; 
+    
+}
+
+#sectio1 a button {
+
+    padding: 1.5px;
+    
+    border-radius: 50px; 
+
+    width: 20px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    color: rgb(19, 153, 108);
+
+    border-color: rgb(19, 153, 108);
+
+}
+
+#sectio1 a button:hover {
+
+    color: white;
+
+    background-color: rgb(19, 153, 108);
+
+    transition: 0.7s;
+
+    border-color: white;
+}
+
+#sec2 {
+    padding: 50px; 
+    /*  */
+
+    background-color: rgb(226, 233, 233);
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+#sec2 div a button { 
+    padding: 20px; 
+
+    border-radius: 50px; 
+
+    width: 20vw;
+
+    color: rgb(19, 153, 108); 
+
+    border-color: rgb(19, 153, 108); 
+
+    margin: 30px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+#sec2 div p { 
+
+    font-size: 25px; 
+}
+
+#sec2 div a button:hover { 
+
+    background-color: rgb(90, 168, 168); 
+
+    transition: 0.7s;
+
+    border-color: white; 
+
+    color: white;
+}
+
+#sec2 div a {
+
+    text-decoration: none;
+
+    color: rgb(19, 153, 108); 
+
+    font-size: 15px; 
+}
+
+#sec2 div button a:hover {
+
+    color: white; 
+
+    transition: 0.7s;
+}
+
+
+
+#sec2 div img { 
+
+    width: 25vw; 
+
+    height: 50vh; 
+
+    margin-left: 40px; 
+
+    margin-top: 30px; 
+}
+
+#sec3 { 
+
+    padding: 25vh; 
+
+    background-color: rgb(226, 233, 233); 
+
+    flex-wrap: wrap; 
+}
+
+#sec3 h2 { 
+    font-size: 40px;
+
+    margin-top: -20rem;
+
+    color: rgb(34, 34, 74); 
+
+    text-align: center; 
+}
+
+#sec3 p {
+    margin-top: 30px; 
+
+    color: rgba(0, 0, 0, 0.564); 
+
+    text-align: justify; 
+}
+
+#sec3 button { 
+    padding: 20px;
+
+    border-radius: 50px; 
+
+    width: 15vw;
+
+    color: rgb(50, 50, 226);
+
+    border-color: rgb(50, 50, 226);
+
+    margin: 60px; 
+
+    font-size: 15px; 
+    
+}
+
+#sec3 button a {
+
+    color: blue;
+
+    text-decoration: none;
+}
+
+#sec3 button a:hover{
+
+    color: white;
+
+    transition: 0.7s;
+}
+
+#sec3 button:hover { 
+
+    background-color: rgb(50, 50, 226); 
+
+    color: white; 
+
+    border-color: white; 
+
+    transition: 0.7s;
+
+    cursor: pointer;
+}
+
+.lin { 
+
+    margin: 0 auto; 
+
+    width: 65%; 
+}
+
+#sec3 img { 
+
+    margin-left: 10vw; 
+
+    margin-top: 30px; 
+
+    width: 35vw; 
+}
+
+#sec-cofre { 
+
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg);
+
+    background-position: center;
+
+    background-attachment: fixed; 
+
+    padding: 10%; 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: space-evenly;
+
+ }
+
+ #sec-cofre img { 
+
+    width: 23vw; 
+
+    margin-top: 10rem; 
+
+    height: auto;
+
+    flex-wrap: wrap;
+}
+
+#sec-cofre h2 { 
+    
+    color: white; 
+
+    font-size: 30px; 
+
+    text-align: center;
+}
+
+#sec-cofre p {
+
+    color: white; 
+
+    font-size: 17px; 
+
+    text-align: center;
+
+    margin-top: 2rem;
+   
+}
+
+#sec-cofre div span {
+
+    color: yellow;
+}
+
+footer { 
+
+    padding: 13vh; 
+
+    background-color: rgb(29, 28, 28); 
+
+    text-align: center; 
+}
+
+footer img { 
+
+    width: 13.5rem;
+
+    height: 4rem; 
+
+    margin-top: -5rem; 
+
+    margin-bottom: 20px;
+
+}
+
+
+.footer-div {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin: 20px 0px; 
+
+}
+
+
+.footer-div a {
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.footer-div p {
+
+    color: rgba(233, 222, 222, 0.523);
+}
+
+.footer-div a:hover {
+
+    color: crimson;
+
+    transition: 0.7s;
+}
+
