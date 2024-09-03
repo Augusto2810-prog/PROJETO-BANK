@@ -279,21 +279,31 @@ header {
     width: 35vw; 
 }
 
-#sec-cofre { 
+#sec-cofre {  /* CRIAÇÃO E ESTILIZAÇÃO DO CONTAINER COFRE */
 
-    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg);
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg); 
+    /* FILTRO GRADIENTE E IMAGEN DE FUNDO */
 
     background-position: center;
+    /* POSICIONAMENTO DA IMAGEM*/
 
-    background-attachment: fixed; 
+    background-attachment: fixed;
+    /* DEIXANDO A IMAGEM FIXA */
+
+    background-size: cover;
+    /* TAMANHO DA IMAGEM TOTAL */
 
     padding: 10%; 
+    /* PREECHIMENTO */
 
     display: flex; 
+    /* TORNANDO NOSSA SEÇÃO FLEX */
 
     align-items: center; 
+    /* ALINHAMENTO NA VERTICAL */
 
     justify-content: space-evenly;
+    /* JUSTIFICATIVA DO CONTEUDO */
 
  }
 
@@ -332,6 +342,10 @@ header {
 #sec-cofre div span {
 
     color: yellow;
+    /* COR DA LETRA */
+
+    font-weight: 600; 
+    /* PESO DA FONT */
 }
 
 footer { 
@@ -381,7 +395,7 @@ footer img {
 
 .footer-div a:hover {
 
-    color: crimson;
+    color: purple;
 
     transition: 0.7s;
 }
